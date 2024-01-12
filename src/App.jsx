@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import countryServices from './services/country'
 
-import Countries from './Components/Countries';
-import Country from './Components/Country';
-import Search from './Components/Search';
+import Countries from './components/Countries';
+import Country from './components/Country';
+import Search from './components/Search';
 
 function App() {
     const [country, setCountry] = useState({})
